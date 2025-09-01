@@ -505,9 +505,9 @@ if __name__ == "__main__":
     execution_time = time.time() - start_time
     email_content = generate_email_content(domain_results, len(domains), total_subdomains, execution_time)
     config = {
-        "sender_email": "1794686508@qq.com",
-        "sender_password": "busnjcluyxtlejgc",
-        "receiver_email": "shenghui3301@163.com",
+        "sender_email": "xxx@qq.com",
+        "sender_password": "xxx",
+        "receiver_email": "xxx@163.com",
         "subject": f"📧 EdgeDomain 爬取完成！共获取 {total_subdomains} 个子域名",
         "content": email_content
     }
